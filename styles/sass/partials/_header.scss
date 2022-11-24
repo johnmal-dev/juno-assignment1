@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  .text-container {
+    display: flex;
+    align-items: center;
+  }
+  .img-container {
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+}

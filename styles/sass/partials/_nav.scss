@@ -1,0 +1,36 @@
+#navbar {
+  ul {
+    display: flex;
+    li {
+      padding: 10px 15px;
+    }
+  }
+}
+
+#navbar label, #hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    ul {
+      flex-direction: column;
+    }
+    label {
+      display: block;
+    }
+  }
+
+  // toggle show/hide menu
+  #navbar ul {
+    display: none
+  }
+
+  #navbar input:checked ~ ul {
+    display: block;
+  }
+
+}

@@ -1,0 +1,37 @@
+@use 'typography' as *;
+
+@mixin typography($fontFamily, $fontWeight, $fontSize) {
+  font-family: $fontFamily;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+}
+
+h1 {
+  @include typography($petitFormalScript, 400, 9rem);
+  text-align: end;
+  line-height: 9.43rem;
+}
+
+h2 {
+  @include typography($petitFormalScript, 400, 5.4rem);
+}
+
+h3 {
+  @include typography($petitFormalScript, 400, 4.5rem);
+}
+
+button {
+  @include typography($petitFormalScript, 400, 2.5rem);
+  text-align: center;
+  line-height: 2.9rem;
+}
+
+footer nav {
+  @include typography($roboto, 400, 2rem);
+}
+
+body p {
+  @include typography($roboto, 300, 2rem);
+  line-height: 2.9rem;
+  letter-spacing: 0.02rem;
+}
