@@ -6,6 +6,10 @@ html {
   color: $white;
 }
 
+body {
+  width: 100vw;
+}
+
 ul {
   list-style: none;
   padding-left: 0;
@@ -20,4 +24,8 @@ a {
   width: 90%;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+img {
+  width: 100%;
 }

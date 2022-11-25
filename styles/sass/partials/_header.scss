@@ -1,19 +1,46 @@
 header {
-  display: flex;
+  .container {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
   .text-container {
     display: flex;
     align-items: center;
   }
   .img-container {
-
     img {
       width: 100%;
     }
   }
+  .icon-container {
+    display: flex;
+    align-items: flex-end;
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+h1 {
+  margin: 0;
 }
 
 @media (max-width: 768px) {
   header {
-    flex-direction: column;
+    .container {
+      flex-direction: column;
+      .icon-container {
+        display: none;
+      }
+    }
   }
+  h1 {
+    font-size: 6rem;
+    word-wrap: break-word;
+  }
+}
+
+@media (max-width: 480px) {
 }
