@@ -462,3 +462,13 @@ h1 {
           flex: 1;
   height: 100%;
 }
+
+.gallery {
+  text-align: center;
+}
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
