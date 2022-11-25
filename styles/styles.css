@@ -289,8 +289,13 @@ img {
 
 button {
   background-color: #1d0303;
+  color: #fff;
   border: none;
   padding: 15px;
+}
+
+h1, h2, h3 {
+  margin: 0;
 }
 
 h1 {
@@ -413,10 +418,6 @@ header .icon-container ul {
           flex-direction: column;
 }
 
-h1 {
-  margin: 0;
-}
-
 @media (max-width: 768px) {
   header .container {
     -webkit-box-orient: vertical;
@@ -493,4 +494,45 @@ h1 {
 .links ul li p {
   margin: 0;
   font-family: "Petit Formal Script", cursive;
+}
+
+.trends .trend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.trends .trend:first-of-type {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.trends .trend .text-container,
+.trends .trend .img-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media (max-width: 768px) {
+  .trends .trend {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  .trends .trend:first-of-type {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .trends .trend .text-container {
+    padding: 25px 15px 0 15px;
+  }
 }

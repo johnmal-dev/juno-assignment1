@@ -6,6 +6,10 @@
   font-size: $fontSize;
 }
 
+h1, h2, h3 {
+  margin: 0;
+}
+
 h1 {
   @include typography($petitFormalScript, 400, 9rem);
   text-align: end;

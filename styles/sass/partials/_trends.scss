@@ -1,0 +1,29 @@
+.trends {
+  .trend {
+    display: flex;
+    align-items: center;
+    &:first-of-type {
+      flex-direction: row-reverse;
+    }
+    .text-container,
+    .img-container {
+      flex: 1;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .trends {
+    .trend {
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 25px;
+      &:first-of-type {
+        flex-direction: column;
+      }
+      .text-container {
+        padding: 25px 15px 0 15px;
+      }
+    }
+  }
+}
