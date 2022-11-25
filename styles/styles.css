@@ -472,3 +472,25 @@ h1 {
   display: flex;
   gap: 25px;
 }
+
+.links {
+  background-color: #500801;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.links ul li {
+  text-align: center;
+}
+.links ul li p {
+  margin: 0;
+  font-family: "Petit Formal Script", cursive;
+}

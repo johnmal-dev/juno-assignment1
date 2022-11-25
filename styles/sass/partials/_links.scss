@@ -1,0 +1,22 @@
+@use 'typography' as *;
+
+.links {
+  background-color: $hardRed;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  ul {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+
+    li {
+      text-align: center;
+
+      p {
+        margin: 0;
+        font-family: $petitFormalScript;
+      }
+    }
+  }
+}
