@@ -2,4 +2,23 @@
 
 .cta-section {
   background-color: $hardRed;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 0;
+
+    .img-container {
+      flex: 1;
+      img {
+        height: 100%;
+      }
+    }
+
+    .text-container {
+      flex: 1;
+      height: 100%;
+    }
+  }
 }
