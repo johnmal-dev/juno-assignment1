@@ -518,6 +518,10 @@ header .container .icon-container ul {
             flex-direction: column;
   }
 }
+.trends {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 .trends .trend {
   display: -webkit-box;
   display: -ms-flexbox;
