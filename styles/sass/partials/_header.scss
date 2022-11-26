@@ -4,17 +4,20 @@ header {
     gap: 20px;
     padding-bottom: 20px;
     .text-container {
+      flex: 1;
       margin: auto 0;
       span {
         display: block;
       }
     }
     .img-container {
+      flex: 1;
       img {
         width: 100%;
       }
     }
     .icon-container {
+      flex: none;
       display: flex;
       align-items: flex-end;
       ul {

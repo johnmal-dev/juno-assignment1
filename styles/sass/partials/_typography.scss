@@ -11,3 +11,10 @@ $white: #fff;
 $darkBrown: #1d0303;
 $hardRed: #500801;
 $brown: #815600;
+
+// mixins
+@mixin typography($fontFamily, $fontWeight, $fontSize) {
+  font-family: $fontFamily;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+}

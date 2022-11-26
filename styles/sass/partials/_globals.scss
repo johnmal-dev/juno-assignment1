@@ -36,3 +36,19 @@ button {
   border: none;
   padding: 15px;
 }
+
+button {
+  @include typography($petitFormalScript, 400, 2.5rem);
+  text-align: center;
+  line-height: 2.9rem;
+}
+
+footer nav {
+  @include typography($roboto, 400, 2rem);
+}
+
+body {
+  @include typography($roboto, 300, 2rem);
+  line-height: 2.9rem;
+  letter-spacing: 0.02rem;
+}

@@ -294,6 +294,28 @@ button {
   padding: 15px;
 }
 
+button {
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 2.9rem;
+}
+
+footer nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  letter-spacing: 0.02rem;
+}
+
 h1, h2, h3 {
   margin: 0;
 }
@@ -316,28 +338,6 @@ h3 {
   font-family: "Petit Formal Script", cursive;
   font-weight: 400;
   font-size: 4.5rem;
-}
-
-button {
-  font-family: "Petit Formal Script", cursive;
-  font-weight: 400;
-  font-size: 2.5rem;
-  text-align: center;
-  line-height: 2.9rem;
-}
-
-footer nav {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 2rem;
-}
-
-body p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 2rem;
-  line-height: 2.9rem;
-  letter-spacing: 0.02rem;
 }
 
 #navbar ul {
@@ -393,15 +393,26 @@ header .container {
   padding-bottom: 20px;
 }
 header .container .text-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   margin: auto 0;
 }
 header .container .text-container span {
   display: block;
 }
+header .container .img-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
 header .container .img-container img {
   width: 100%;
 }
 header .container .icon-container {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
