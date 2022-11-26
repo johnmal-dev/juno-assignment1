@@ -20,3 +20,11 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .links ul {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+}

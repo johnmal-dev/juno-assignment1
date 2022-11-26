@@ -464,6 +464,18 @@ header .icon-container ul {
   height: 100%;
 }
 
+@media (max-width: 768px) {
+  .cta-section .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .cta-section .container p {
+    text-align: left;
+  }
+}
 .gallery {
   text-align: center;
 }
@@ -496,6 +508,14 @@ header .icon-container ul {
   font-family: "Petit Formal Script", cursive;
 }
 
+@media (max-width: 768px) {
+  .links ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .trends .trend {
   display: -webkit-box;
   display: -ms-flexbox;
