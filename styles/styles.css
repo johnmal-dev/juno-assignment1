@@ -536,3 +536,60 @@ header .icon-container ul {
     padding: 25px 15px 0 15px;
   }
 }
+.contact {
+  background-color: #500801;
+}
+.contact .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact .container .navigation {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.contact .container .subscribe {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  text-align: center;
+}
+.contact .container .subscribe p {
+  margin: 0;
+}
+.contact .container .subscribe .subscribe-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contact .container .subscribe .subscribe-input input {
+  line-height: 2rem;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+.contact .container .subscribe .subscribe-input button {
+  padding: 0.75rem;
+  line-height: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.contact .container .contact-info {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: end;
+}
+.contact .container .contact-info span {
+  display: block;
+}
