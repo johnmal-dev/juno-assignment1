@@ -39,3 +39,20 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .contact .container {
+    flex-direction: column;
+    gap: 10px;
+    .navigation ul {
+      display: flex;
+      gap: 25px;
+    }
+    .contact-info {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+}

@@ -594,6 +594,24 @@ header .icon-container ul {
   display: block;
 }
 
+@media (max-width: 768px) {
+  .contact .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .contact .container .navigation ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 25px;
+  }
+  .contact .container .contact-info {
+    text-align: center;
+  }
+}
 footer {
   padding-top: 5px;
   padding-bottom: 5px;
