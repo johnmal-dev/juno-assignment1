@@ -389,18 +389,16 @@ header .container {
   gap: 20px;
   padding-bottom: 20px;
 }
-header .text-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+header .container .text-container {
+  margin: auto 0;
 }
-header .img-container img {
+header .container .text-container span {
+  display: block;
+}
+header .container .img-container img {
   width: 100%;
 }
-header .icon-container {
+header .container .icon-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -408,10 +406,11 @@ header .icon-container {
       -ms-flex-align: end;
           align-items: flex-end;
 }
-header .icon-container ul {
+header .container .icon-container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 5px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -425,12 +424,15 @@ header .icon-container ul {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  header .container h1 {
+    font-size: 6rem;
+  }
+  header .container .img-container {
+    -webkit-transform: translateX(-90px);
+            transform: translateX(-90px);
+  }
   header .container .icon-container {
     display: none;
-  }
-  h1 {
-    font-size: 6rem;
-    word-wrap: break-word;
   }
 }
 .cta-section {
