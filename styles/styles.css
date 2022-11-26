@@ -344,6 +344,7 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-align: end;
 }
 #navbar ul li {
   padding: 10px 15px;
@@ -351,6 +352,7 @@ body p {
 
 #navbar label, #hamburger {
   display: none;
+  text-align: end;
 }
 
 @media (max-width: 768px) {
@@ -373,6 +375,7 @@ body p {
             flex-direction: column;
   }
   #navbar label {
+    padding-top: 10px;
     display: block;
   }
   #navbar ul {
