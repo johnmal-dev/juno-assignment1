@@ -14,9 +14,11 @@ h1 {
 
 h2 {
   @include typography($petitFormalScript, 400, 5.4rem);
+  line-height: 5.6rem;
 }
 
 h3 {
   @include typography($petitFormalScript, 400, 4.5rem);
+  line-height: 4.7rem;
 }
 

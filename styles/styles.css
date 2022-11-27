@@ -332,12 +332,14 @@ h2 {
   font-family: "Petit Formal Script", cursive;
   font-weight: 400;
   font-size: 5.4rem;
+  line-height: 5.6rem;
 }
 
 h3 {
   font-family: "Petit Formal Script", cursive;
   font-weight: 400;
   font-size: 4.5rem;
+  line-height: 4.7rem;
 }
 
 #navbar ul {
