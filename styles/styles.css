@@ -499,7 +499,6 @@ header .container .icon-container ul {
           flex: 1;
   aspect-ratio: 1;
   overflow: hidden;
-  border: 10px solid black;
 }
 .cta-section .container .img-container img {
   height: 100%;
