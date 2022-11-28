@@ -1,7 +1,13 @@
 .gallery {
   text-align: center;
+  h2 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
   ul {
     display: flex;
     gap: 25px;
   }
 }
+
+@
