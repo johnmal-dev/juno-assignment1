@@ -651,6 +651,14 @@ header .container .icon-container ul {
       -ms-flex: 2;
           flex: 2;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
 }
 .contact .container .subscribe p {
   margin: 0;
@@ -692,13 +700,33 @@ header .container .icon-container ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
     gap: 10px;
   }
   .contact .container .navigation ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 25px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-transform: capitalize;
+    font-size: 3rem;
+  }
+  .contact .container .subscribe .subscribe-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact .container .subscribe .subscribe-input button {
+    margin: 20px auto;
+    padding: 15px;
   }
   .contact .container .contact-info {
     text-align: center;

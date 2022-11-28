@@ -13,6 +13,9 @@
     .subscribe {
       flex: 2;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
       p {
         margin: 0;
       }
@@ -43,10 +46,21 @@
 @media (max-width: 768px) {
   .contact .container {
     flex-direction: column;
+    align-items: stretch;
     gap: 10px;
     .navigation ul {
       display: flex;
-      gap: 25px;
+      justify-content: space-between;
+      text-transform: capitalize;
+      font-size: 3rem;
+    }
+    .subscribe .subscribe-input {
+      display: flex;
+      flex-direction: column;
+      button {
+        margin: 20px auto;
+        padding: 15px;
+      }
     }
     .contact-info {
       text-align: center;
