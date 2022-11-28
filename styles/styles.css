@@ -357,7 +357,9 @@ h3 {
   padding: 10px 15px;
 }
 
-#navbar label, #hamburger {
+#navbar label,
+#hamburger {
+  cursor: pointer;
   display: none;
   text-align: end;
 }
@@ -386,10 +388,24 @@ h3 {
     display: block;
   }
   #navbar ul {
-    display: none;
+    margin-right: 5px;
+    background-color: #500801;
+    position: absolute;
+    right: 0;
+    -webkit-transform: translateX(125px);
+            transform: translateX(125px);
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   }
   #navbar input:checked ~ ul {
-    display: block;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   }
 }
 header .container {

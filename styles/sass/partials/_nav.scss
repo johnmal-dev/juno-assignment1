@@ -1,3 +1,5 @@
+@use 'typography' as *;
+
 #navbar {
   ul {
     display: flex;
@@ -8,7 +10,9 @@
   }
 }
 
-#navbar label, #hamburger {
+#navbar label,
+#hamburger {
+  cursor: pointer;
   display: none;
   text-align: end;
 }
@@ -29,11 +33,16 @@
 
   // toggle show/hide menu
   #navbar ul {
-    display: none
+    margin-right: 5px;
+    background-color: $hardRed;
+    position: absolute;
+    right: 0;
+    transform: translateX(125px);
+    transition: transform 0.5s ease-in-out;
   }
 
   #navbar input:checked ~ ul {
-    display: block;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
   }
-
 }
