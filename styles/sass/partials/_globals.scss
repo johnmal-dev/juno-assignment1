@@ -47,7 +47,8 @@ footer nav {
   @include typography($roboto, 400, 2rem);
 }
 
-body {
+body,
+p {
   @include typography($roboto, 300, 2rem);
   line-height: 2.9rem;
   letter-spacing: 0.02rem;

@@ -1,8 +1,8 @@
 @use 'typography' as *;
 
-
-
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
@@ -21,4 +21,3 @@ h3 {
   @include typography($petitFormalScript, 400, 4.5rem);
   line-height: 4.7rem;
 }
-

@@ -308,7 +308,8 @@ footer nav {
   font-size: 2rem;
 }
 
-body {
+body,
+p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 2rem;
@@ -321,7 +322,9 @@ section {
   padding-bottom: 25px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 

@@ -37,7 +37,7 @@
       aspect-ratio: revert;
       img {
         object-position: 30px 10px;
-        transform: scale(1.5)
+        transform: scale(1.5);
       }
     }
 
@@ -45,7 +45,4 @@
       text-align: left;
     }
   }
-}
-
-@media (max-width: 480px) {
 }
